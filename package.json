@@ -1,0 +1,26 @@
+{
+  "name": "jsonrpc-cli",
+  "version": "0.1.0",
+  "description": "Simple CLI for accessing JSON-RPC services",
+  "main": "index.js",
+  "bin": "lib/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json-rpc",
+    "cli"
+  ],
+  "author": "Pete Hunt",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "json5": "^2.2.0",
+    "zod": "^3.11.6",
+    "zod-args": "^0.1.0",
+    "zod-json-rpc": "^0.1.0"
+  }
+}
